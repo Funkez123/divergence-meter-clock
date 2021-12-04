@@ -17,4 +17,6 @@ Please refer to the Datasheet of your specific 4x7-Segment Display since wiring 
 Clock.ino contains the Code to display the currect time of the DS3231 Module
 !To set the time refer to the ds3231 library and upload the "DS3231_set.ino" Code while following it's instructions!
 
+Two-Extra LED's are optional but switch randomly every 24h (at 00:00) -> show Alpha/Beta-timeline
+
 Feel free to modify/use the code as you like
