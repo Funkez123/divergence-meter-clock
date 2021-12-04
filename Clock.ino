@@ -32,13 +32,13 @@ int mil = 0;
 
 void setup() {
 
- pinMode(6,OUTPUT);
- pinMode(9,OUTPUT);
+ pinMode(6,OUTPUT); // Alpha -LED
+ pinMode(8,OUTPUT); // Beta - LED
 
     Wire.begin();
     
   byte numDigits = 8;
-  byte digitPins[] = {28, 32, 35, 34,10,11,12,13};
+  byte digitPins[] = {28, 32, 35, 34,10,11,12,13}; // D0-D7 Pins 
   byte segmentPins[] = {2, 3, 4, 19, 7, 18, 9, 5}; // pls change to prefered wiring
   bool resistorsOnSegments = true; // pins
   byte hardwareConfig = COMMON_CATHODE; //
